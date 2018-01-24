@@ -16,3 +16,7 @@ Folder “RandomForest” contains two programs, one is “SampleGenerator” an
 To run the code, 1) you need to use the program “SampleGenerator” to prepare the training data. If successful, a .mat file will be generated under the folder “Dataset”. 2) use the program “RandomForest” and set its mode to training by OpType otUse = TRAINING, then run the program. Besides, the forest parameters, such as tree number, depth, stopping criteria, number of random tests, can be set in the configuration file “conf.txt” under the folder “RandomForest/conf”, the feature parameters, such as the neighborhood size, dimension and camera projection parameters can be set with the function SetFeatureParam and GenerateFeatureIndices/ GenerateFeatureIndicesApt in the program. 
 
 After running the training program, a forest file will be generated under the folder “Dataset” if successful. You can now set its mode to testing by OpType otUse = TESTING, and run the program. It will show the comparison between the ground truth and the predicted hand parts. 
+
+
+
+the paper is in there:https://fae1051c-a-62cb3a1a-s-sites.googlegroups.com/site/seraphlh/attachments/2014TMM_HandParsing.pdf?attachauth=ANoY7cq3LwHKyHXZfMUFVuG3QtODxFqFnyXYASwrG2Y4exBcHvmCm0s9Na3eUxXjtB4g_dHWvHZJkpBKaFWYJwchotX1yMKiktTe-xUXxs6zlTGsDPlHk6Qt67iHdv_0IrLYp3xAL0EEFEHqN-02bJkzOM9okUhlf0o1Rl0UjirFZp2IT5CeTSGm7yqhsDF1CWztwHwfP82YScde0O4F68iFeEYT1-kChDtVIVUXbka-NBeNh5dCEdg%3D&attredirects=0
